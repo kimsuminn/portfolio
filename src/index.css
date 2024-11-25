@@ -3,14 +3,15 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'moneyGraphy';
-  src: url('../public/font/Moneygraphy-Rounded.woff') format('woff');
+  font-family: "moneyGraphy";
+  src: url("../public/font/Moneygraphy-Rounded.woff") format("woff");
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
 }
 
 a {
@@ -34,6 +35,10 @@ figure {
 
 html {
   font-size: 16px;
+}
+
+body {
+  background-color: #222;
 }
 
 @media screen and (max-width: 1200px) {

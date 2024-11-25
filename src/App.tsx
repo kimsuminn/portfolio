@@ -1,13 +1,13 @@
-import './App.css'
+import { BrowserRouter } from "react-router-dom";
+import { PageLayout } from "./layout/pageLayout";
 
 function App() {
-
   return (
-    <>
-      <div className='text-center bg-blue-200 text-black font-moneyGraphy'>
-        Hello, Tailwind!
-      </div>
-    </>
+    <BrowserRouter>
+      <PageLayout>
+        <div></div>
+      </PageLayout>
+    </BrowserRouter>
   )
 }
 
